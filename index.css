@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 80px;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+  color: #f8f9fa !important;
+}
+
+
+.cover-photo {
+  background-image: url('./lear.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.category-card, .resource-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover, .resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#about ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
